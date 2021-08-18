@@ -18,4 +18,13 @@
 
 [model.py](./common/model.py) - define Pytorch machine learning model
 
-[quaternion.py](./common/quaternion.py) -
+[quaternion.py](./common/quaternion.py) - Rotete / inverse quaternion (3D skeleton)
+
+[skeleton.py](./common/skeleton.py) - Manipulate skelton / get skelton data
+
+[utils.py](./common/utils.py)
+
+- wrap: wrap a Pytorch function so it can be called with NumPy arrays
+- deterministic_random: return random number
+
+[visualization.py](./common/visualization.py) - Visualize video and skelton combination
