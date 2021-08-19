@@ -4,17 +4,17 @@
 
 [camera.py](./common/camera.py) - camera utilities: normalize images,
 
-[custom_dataset.py](./common/custom_dataset.py) - customize dataset from CMU MoCap, camera, and Human3.6m
+[custom_dataset.py](./common/custom_dataset.py) - Custom Dataset class
 
 [generators.py](./common/generators.py) - Batched data generator for training, and Non-batched data generator for testing.
 
-[h36m_dataset.py](./common/h36m_dataset.py) - Convert Human3.6m dataset to VideoPose3D's
+[h36m_dataset.py](./common/h36m_dataset.py) - Human3.6m dataset class
 
-[humaneva_dataset.py](./common/humaneva_dataset.py) - Convert HumanEva dataset to VideoPose3D's
+[humaneva_dataset.py](./common/humaneva_dataset.py) - HumanEva dataset class
 
 [loss.py](./common/loss.py) - Error calculation functions for training
 
-[mocap_dataset.py](./common/mocap_dataset.py) - Convert CMU MoCap dataset to VideoPose3D's
+[mocap_dataset.py](./common/mocap_dataset.py) - CMU MoCap dataset class
 
 [model.py](./common/model.py) - define Pytorch machine learning model
 
@@ -28,3 +28,15 @@
 - deterministic_random: return random number
 
 [visualization.py](./common/visualization.py) - Visualize video and skelton combination
+
+## data
+
+[convert_cdf_to_mat.m](./data/convert_cdf_to_mat.m) - matlab code to convert CDF file to matlab format file.
+
+[ConvertHumanEva.m](./data/ConvertHumanEva.m) - matlab code to HumanEva dataset to matlab array format file.
+
+[data_utils.py](./data/data_utils.py) - Skeypoints symmetry data, Suggest metadata format, and import pose data from Detectron, CPN, and SH.
+
+[prepare_data_2d_custom.py](./data/prepare_data_2d_custom.py) - Convert/prepare Detectron numpy file for VideoPose3D
+
+[prepare_data_2d_h36m_generic.py](./data/prepare_data_2d_h36m_generic.py) - Convert/prepare Human3.6m dataset for VideoPose3D
