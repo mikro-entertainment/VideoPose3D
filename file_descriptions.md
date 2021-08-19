@@ -37,6 +37,12 @@
 
 [data_utils.py](./data/data_utils.py) - Skeypoints symmetry data, Suggest metadata format, and import pose data from Detectron, CPN, and SH.
 
-[prepare_data_2d_custom.py](./data/prepare_data_2d_custom.py) - Convert/prepare Detectron numpy file for VideoPose3D
+[prepare_data_2d_custom.py](./data/prepare_data_2d_custom.py) - Convert/prepare 2D Detectron numpy file for VideoPose3D
 
-[prepare_data_2d_h36m_generic.py](./data/prepare_data_2d_h36m_generic.py) - Convert/prepare Human3.6m dataset for VideoPose3D
+[prepare_data_2d_h36m_generic.py](./data/prepare_data_2d_h36m_generic.py) - Convert/prepare 2D Human3.6m dataset for VideoPose3D
+
+[prepare_data_2d_h36m_sh.py](./data/prepare_data_2d_h36m_sh.py) - Convert/prepare 2D Human3.6m Stacked Hourglass detections dataset
+
+[prepare_data_h36m.py](./data/prepare_data_h36m.py) - Convert/prepare Human3.6m dataset
+
+[prepare_data_humaneva.py](./data/prepare_data_humaneva.py) - Convert/prepare HumanEva dataset
