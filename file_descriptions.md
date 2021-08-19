@@ -1,4 +1,4 @@
-## Common
+## common
 
 [arguments.py](./common/arguments.py) - Command line arguments
 
@@ -46,3 +46,9 @@
 [prepare_data_h36m.py](./data/prepare_data_h36m.py) - Convert/prepare Human3.6m dataset
 
 [prepare_data_humaneva.py](./data/prepare_data_humaneva.py) - Convert/prepare HumanEva dataset
+
+## inference
+
+[infer_video_d2.py](./inference/infer_video_d2.py) - Infer 3D motion from Detectron2 file
+
+[infer_video.py](./inference/infer_video.py) - Infer 3D motion from Detectron1 file
