@@ -20,7 +20,7 @@
 
 [quaternion.py](./common/quaternion.py) - Rotete / inverse quaternion (3D skeleton)
 
-[skeleton.py](./common/skeleton.py) - Manipulate skelton / get skelton data
+[skeleton.py](./common/skeleton.py) - Skeleton class for manipulating and getting skeleton data
 
 [utils.py](./common/utils.py)
 
