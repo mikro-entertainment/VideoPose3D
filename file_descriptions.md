@@ -16,7 +16,7 @@
 
 [mocap_dataset.py](./common/mocap_dataset.py) - CMU MoCap dataset class
 
-[model.py](./common/model.py) - define Pytorch machine learning model
+[model.py](./common/model.py) - Pytorch machine learning model class for VideoPose3D
 
 [quaternion.py](./common/quaternion.py) - Rotete / inverse quaternion (3D skeleton)
 
