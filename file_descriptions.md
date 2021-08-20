@@ -1,3 +1,5 @@
+[run.py](./run.py) - Run training and estimation
+
 ## common
 
 [arguments.py](./common/arguments.py) - Command line arguments
